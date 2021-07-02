@@ -29,5 +29,22 @@ namespace MarsRover
             NewPostion = value;
         }
 
+        //Constructor I added
+        public Command(string commandType, string newMode)
+        {
+            CommandType = commandType;
+            NewMode = newMode;
+
+            if (String.IsNullOrEmpty(commandType))
+            {
+                throw new ArgumentNullException(commandType, "Command type required.");
+            }
+
+            if (String.IsNullOrEmpty(newMode))
+            {
+                throw new ArgumentNullException(newMode, "New mode required.");
+            }
+        }
+
     }
 }
