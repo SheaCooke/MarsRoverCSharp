@@ -29,7 +29,7 @@ namespace MarsRover
             NewPostion = value;
         }
 
-        //Constructor I added
+        
         public Command(string commandType, string newMode)
         {
             CommandType = commandType;
