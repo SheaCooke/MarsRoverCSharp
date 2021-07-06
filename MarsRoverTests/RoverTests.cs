@@ -27,20 +27,20 @@ namespace MarsRoverTests
         [TestMethod]
         public void ConstructorSetsDefaultPosition()
         {
-            Assert.AreEqual(r1.Position, 1);
+            Assert.AreEqual(1, r1.Position);
             
         }
 
         [TestMethod]
         public void ConstructorSetsDefaultMode()
         {
-            Assert.AreEqual(r1.Mode, "NORMAL");
+            Assert.AreEqual("NORMAL", r1.Mode);
         }
 
         [TestMethod]
         public void ConstructorSetsDefaultGeneratorWatts()
         {
-            Assert.AreEqual(r1.GeneratorWatts, 110);
+            Assert.AreEqual(110, r1.GeneratorWatts);
         }
 
         [TestMethod]

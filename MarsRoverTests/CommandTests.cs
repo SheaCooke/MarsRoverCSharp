@@ -36,7 +36,7 @@ namespace MarsRoverTests
         }
 
 
-        // test I added
+        
         [TestMethod]
         public void ConstructorSetsInitialNewModeValue()
         {
